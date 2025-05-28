@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor de texto para voz</title>
+</head>
+
+<body>
+    <main>
+        <h1>Conversor de <span>Texto</span> para <span>Voz</span></h1>
+        <p>Digite um texto ou envie um arquivo:</p>
+        <div class="content">
+            <textarea placeholder="Digite alguma coisa..." id="text"></textarea>
+            <div class="area">
+                <label for="upload" id="label-file">Enviar arquivo</label>
+                <input type="file" id="upload" accept=".txt">
+            </div>
+        </div>
+        <div class="actions">
+            <div class="action-box box1">
+                <p>Selecione a voz:</p>
+                <select id="voice"></select>
+            </div>
+            <div class="action-box box2">
+                <p>Clique para ouvir:</p>
+                <button id="listen-btn">Ouvir</button>
+            </div>
+            <div class="action-box box3">
+                <p>Baixar arquivo:</p>
+                <button id="download-btn">Baixar texto</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
