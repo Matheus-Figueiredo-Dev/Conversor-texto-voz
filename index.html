@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Conversor de texto para voz</title>
 </head>
@@ -24,13 +29,15 @@
                 <p>Selecione a voz:</p>
                 <select id="voice"></select>
             </div>
-            <div class="action-box box2">
-                <p>Clique para ouvir:</p>
-                <button id="listen-btn">Ouvir</button>
-            </div>
-            <div class="action-box box3">
-                <p>Baixar arquivo:</p>
-                <button id="download-btn">Baixar texto</button>
+            <div class="last-btn">
+                <div class="action-box">
+                    <p>Clique para ouvir:</p>
+                    <button id="listen-btn">Ouvir</button>
+                </div>
+                <div class="action-box">
+                    <p>Baixar arquivo:</p>
+                    <button id="download-btn">Baixar texto</button>
+                </div>
             </div>
         </div>
     </main>
